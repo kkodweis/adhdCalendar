@@ -9,21 +9,40 @@
 /* Begin PBXBuildFile section */
 		0964C48729B30148003639D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C48629B30148003639D8 /* AppDelegate.swift */; };
 		0964C48929B30148003639D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C48829B30148003639D8 /* SceneDelegate.swift */; };
-		0964C48B29B30148003639D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C48A29B30148003639D8 /* ViewController.swift */; };
-		0964C48E29B30148003639D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0964C48C29B30148003639D8 /* Main.storyboard */; };
 		0964C49029B3014A003639D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0964C48F29B3014A003639D8 /* Assets.xcassets */; };
-		0964C49329B3014A003639D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0964C49129B3014A003639D8 /* LaunchScreen.storyboard */; };
+		0964C49C29B3083E003639D8 /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0964C49B29B3083E003639D8 /* CalendarKit */; };
+		0964C4A029B43DAD003639D8 /* adhdTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C49F29B43DAD003639D8 /* adhdTitleLabel.swift */; };
+		0964C4A229B43DC2003639D8 /* adhdBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C4A129B43DC2003639D8 /* adhdBodyLabel.swift */; };
+		0964C4A429B43E00003639D8 /* adhdSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C4A329B43E00003639D8 /* adhdSecondaryTitleLabel.swift */; };
+		0964C4A729B4437E003639D8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C4A629B4437E003639D8 /* HomeVC.swift */; };
+		0964C4A929B443E5003639D8 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C4A829B443E5003639D8 /* CalendarVC.swift */; };
+		0964C4AB29B443FC003639D8 /* ToDoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C4AA29B443FC003639D8 /* ToDoVC.swift */; };
+		0964C4AE29B44426003639D8 /* JournalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C4AD29B44426003639D8 /* JournalVC.swift */; };
+		0964C4B029B44441003639D8 /* ProgressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C4AF29B44441003639D8 /* ProgressVC.swift */; };
+		0964C4B329B44754003639D8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C4B229B44754003639D8 /* Constants.swift */; };
+		0964C4B529B450FD003639D8 /* headerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C4B429B450FD003639D8 /* headerVC.swift */; };
+		0964C4B829B45464003639D8 /* adhdContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C4B729B45464003639D8 /* adhdContainerView.swift */; };
+		0964C4BA29B4634D003639D8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0964C4B929B4634D003639D8 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0964C48329B30148003639D8 /* adhdCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adhdCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0964C48629B30148003639D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0964C48829B30148003639D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0964C48A29B30148003639D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0964C48D29B30148003639D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0964C48F29B3014A003639D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0964C49229B3014A003639D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0964C49429B3014A003639D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0964C49F29B43DAD003639D8 /* adhdTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adhdTitleLabel.swift; sourceTree = "<group>"; };
+		0964C4A129B43DC2003639D8 /* adhdBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adhdBodyLabel.swift; sourceTree = "<group>"; };
+		0964C4A329B43E00003639D8 /* adhdSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adhdSecondaryTitleLabel.swift; sourceTree = "<group>"; };
+		0964C4A629B4437E003639D8 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		0964C4A829B443E5003639D8 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		0964C4AA29B443FC003639D8 /* ToDoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoVC.swift; sourceTree = "<group>"; };
+		0964C4AD29B44426003639D8 /* JournalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalVC.swift; sourceTree = "<group>"; };
+		0964C4AF29B44441003639D8 /* ProgressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressVC.swift; sourceTree = "<group>"; };
+		0964C4B229B44754003639D8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0964C4B429B450FD003639D8 /* headerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = headerVC.swift; path = ViewControllers/headerVC.swift; sourceTree = "<group>"; };
+		0964C4B729B45464003639D8 /* adhdContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adhdContainerView.swift; sourceTree = "<group>"; };
+		0964C4B929B4634D003639D8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeaderView.swift; path = "Custom Views/Views/HeaderView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0964C49C29B3083E003639D8 /* CalendarKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,64 @@
 		0964C48529B30148003639D8 /* adhdCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				0964C4B129B4473C003639D8 /* Utilities */,
+				0964C4A529B442EA003639D8 /* ViewControllers */,
+				0964C49E29B4336B003639D8 /* Custom Views */,
 				0964C48629B30148003639D8 /* AppDelegate.swift */,
 				0964C48829B30148003639D8 /* SceneDelegate.swift */,
-				0964C48A29B30148003639D8 /* ViewController.swift */,
-				0964C48C29B30148003639D8 /* Main.storyboard */,
 				0964C48F29B3014A003639D8 /* Assets.xcassets */,
-				0964C49129B3014A003639D8 /* LaunchScreen.storyboard */,
 				0964C49429B3014A003639D8 /* Info.plist */,
+				0964C4B929B4634D003639D8 /* HeaderView.swift */,
 			);
 			path = adhdCalendar;
+			sourceTree = "<group>";
+		};
+		0964C49D29B4335A003639D8 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				0964C49F29B43DAD003639D8 /* adhdTitleLabel.swift */,
+				0964C4A129B43DC2003639D8 /* adhdBodyLabel.swift */,
+				0964C4A329B43E00003639D8 /* adhdSecondaryTitleLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		0964C49E29B4336B003639D8 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				0964C4B629B4543D003639D8 /* Views */,
+				0964C49D29B4335A003639D8 /* Labels */,
+				0964C4B429B450FD003639D8 /* headerVC.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		0964C4A529B442EA003639D8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0964C4A629B4437E003639D8 /* HomeVC.swift */,
+				0964C4A829B443E5003639D8 /* CalendarVC.swift */,
+				0964C4AA29B443FC003639D8 /* ToDoVC.swift */,
+				0964C4AD29B44426003639D8 /* JournalVC.swift */,
+				0964C4AF29B44441003639D8 /* ProgressVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0964C4B129B4473C003639D8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0964C4B229B44754003639D8 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0964C4B629B4543D003639D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0964C4B729B45464003639D8 /* adhdContainerView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +152,9 @@
 			dependencies = (
 			);
 			name = adhdCalendar;
+			packageProductDependencies = (
+				0964C49B29B3083E003639D8 /* CalendarKit */,
+			);
 			productName = adhdCalendar;
 			productReference = 0964C48329B30148003639D8 /* adhdCalendar.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +183,9 @@
 				Base,
 			);
 			mainGroup = 0964C47A29B30148003639D8;
+			packageReferences = (
+				0964C49A29B3083E003639D8 /* XCRemoteSwiftPackageReference "CalendarKit" */,
+			);
 			productRefGroup = 0964C48429B30148003639D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0964C49329B3014A003639D8 /* LaunchScreen.storyboard in Resources */,
 				0964C49029B3014A003639D8 /* Assets.xcassets in Resources */,
-				0964C48E29B30148003639D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +211,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0964C48B29B30148003639D8 /* ViewController.swift in Sources */,
+				0964C4A229B43DC2003639D8 /* adhdBodyLabel.swift in Sources */,
+				0964C4A729B4437E003639D8 /* HomeVC.swift in Sources */,
+				0964C4A429B43E00003639D8 /* adhdSecondaryTitleLabel.swift in Sources */,
+				0964C4B529B450FD003639D8 /* headerVC.swift in Sources */,
 				0964C48729B30148003639D8 /* AppDelegate.swift in Sources */,
+				0964C4AB29B443FC003639D8 /* ToDoVC.swift in Sources */,
+				0964C4AE29B44426003639D8 /* JournalVC.swift in Sources */,
+				0964C4A029B43DAD003639D8 /* adhdTitleLabel.swift in Sources */,
+				0964C4A929B443E5003639D8 /* CalendarVC.swift in Sources */,
+				0964C4B829B45464003639D8 /* adhdContainerView.swift in Sources */,
+				0964C4B029B44441003639D8 /* ProgressVC.swift in Sources */,
 				0964C48929B30148003639D8 /* SceneDelegate.swift in Sources */,
+				0964C4B329B44754003639D8 /* Constants.swift in Sources */,
+				0964C4BA29B4634D003639D8 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		0964C48C29B30148003639D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0964C48D29B30148003639D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0964C49129B3014A003639D8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0964C49229B3014A003639D8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0964C49529B3014A003639D8 /* Debug */ = {
@@ -290,9 +355,9 @@
 				DEVELOPMENT_TEAM = 8GX99C5LX7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = adhdCalendar/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app needs access to calendar to display events.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,9 +383,9 @@
 				DEVELOPMENT_TEAM = 8GX99C5LX7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = adhdCalendar/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app needs access to calendar to display events.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +423,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0964C49A29B3083E003639D8 /* XCRemoteSwiftPackageReference "CalendarKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/richardtop/CalendarKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0964C49B29B3083E003639D8 /* CalendarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0964C49A29B3083E003639D8 /* XCRemoteSwiftPackageReference "CalendarKit" */;
+			productName = CalendarKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0964C47B29B30148003639D8 /* Project object */;
 }

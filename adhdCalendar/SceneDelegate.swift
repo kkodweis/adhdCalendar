@@ -16,7 +16,80 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        
+        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+        window?.windowScene = windowScene
+        
+        window?.rootViewController = createTabBar()
+        window?.makeKeyAndVisible()
+        
+        configureNavigationBar()
+        
+    }
+    
+    func createHomeNC() -> UINavigationController {
+        
+        let HomeVC = HomeVC()
+        HomeVC.title = "Home"
+        HomeVC.tabBarItem = UITabBarItem(title: HomeVC.title, image: UIImage(systemName: SFSymbols.home), tag: 0)
+        
+        return UINavigationController(rootViewController: HomeVC)
+    }
+    
+    
+    func createCalendarNC() -> UINavigationController {
+        
+        let CalendarVC = CalendarVC()
+        CalendarVC.title = "Calendar"
+        CalendarVC.tabBarItem = UITabBarItem(title: CalendarVC.title, image: UIImage(systemName: SFSymbols.calendar), tag: 1)
+    
+        
+        return UINavigationController(rootViewController: CalendarVC)
+    }
+    
+    
+    func createToDoNC() -> UINavigationController {
+        
+        let ToDoVC = ToDoVC()
+        ToDoVC.title = "To-Do"
+        ToDoVC.tabBarItem = UITabBarItem(title: ToDoVC.title, image: UIImage(systemName: SFSymbols.todo), tag: 2)
+        
+        return UINavigationController(rootViewController: ToDoVC)
+    }
+    
+    func createJournalNC() -> UINavigationController {
+        
+        let JournalVC = JournalVC()
+        JournalVC.title = "Journal"
+        JournalVC.tabBarItem = UITabBarItem(title: JournalVC.title, image: UIImage(systemName: SFSymbols.journal), tag: 3)
+        
+        return UINavigationController(rootViewController: JournalVC)
+    }
+    
+    func createProgressNC() -> UINavigationController {
+        
+        let ProgressVC = ProgressVC()
+        ProgressVC.title = "Progress"
+        ProgressVC.tabBarItem = UITabBarItem(title: ProgressVC.title, image: UIImage(systemName: SFSymbols.progress), tag: 4)
+    
+        return UINavigationController(rootViewController: ProgressVC)
+    }
+    
+    func createTabBar() -> UITabBarController {
+        
+        let tabBar = UITabBarController()
+        UITabBar.appearance().tintColor = .systemGreen
+        UITabBar.appearance().backgroundColor = .secondarySystemBackground
+        tabBar.viewControllers = [createHomeNC(), createCalendarNC(),createToDoNC(), createJournalNC(), createProgressNC()]
+        
+        return tabBar
+        
+    }
+    
+    private func configureNavigationBar() {
+        UINavigationBar.appearance().tintColor = .systemBlue
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
